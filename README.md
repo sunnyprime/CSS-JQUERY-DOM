@@ -26,6 +26,7 @@ typeof(num3)                 // OUTPUT:- 'number'
 
 a=true
 typof(a)                    // OP:-'boolean'
+---
 ```
 #### Output
 
@@ -42,7 +43,7 @@ console.log("You are a cool person");
 
 ```
 
-
+---
 
 #### CONDITION
 
@@ -60,6 +61,7 @@ else
   statement 3
 }
 ```
+
 Example
 ```
 var ham =0;
@@ -74,12 +76,13 @@ if (ham >= 10 && cheese >= 10) {
 }else {
   report = "We had some sales of items"
 }
-console.log(report);
+console.log(report);              # Nothing Sold!
+
+
 ```
-Output
-```
-Nothing Sold!
-```
+
+
+---
 
 #### LOOP
 
@@ -128,6 +131,7 @@ The number is 7
 The number is 8
 The number is 9
 ```
+---
 #### Array
 ```
 > var myArr=[]                      #  undefined
@@ -147,5 +151,6 @@ The number is 9
 > myArr                             #[ 2, 3, true, 'John' ]
 > myArr.slice(1,4)                  #[ 3, true, 'John' ]
 ```
-
+---
+#### Function
 
