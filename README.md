@@ -27,10 +27,18 @@ typeof(num3)                 // OUTPUT:- 'number'
 a=true
 typof(a)                    // OP:-'boolean'
 ```
-#### Input/Output
+#### Output
 
 ```
 console.log("INDIA")      //  OP:- INDIA
+
+alert("Welcome to my bank");
+
+var deposit = prompt("How much would you like to deposit today");
+
+alert("You have deposited : "+deposit);
+
+console.log("You are a cool person");
 
 ```
 
@@ -53,6 +61,7 @@ else
 }
 ```
 Example
+```
 var ham =0;
 var cheese = 0;
 var report ="blank";
@@ -65,8 +74,12 @@ if (ham >= 10 && cheese >= 10) {
 }else {
   report = "We had some sales of items"
 }
-
 console.log(report);
+```
+Output
+```
+Nothing Sold!
+```
 
 #### LOOP
 
@@ -95,5 +108,44 @@ L
 ```
 ##### While LOOP
 
- 
+```
+var i = 0;
+while (i < 10) {
+    text += "<br>The number is " + i;
+    i++;
+}
+```
+Output
+```
+The number is 0
+The number is 1
+The number is 2
+The number is 3
+The number is 4
+The number is 5
+The number is 6
+The number is 7
+The number is 8
+The number is 9
+```
+#### Array
+```
+> var myArr=[]                      #  undefined
+> myArr                             #   []
+> myArr=[1,2,3,true,'John']         #[ 1, 2, 3, true, 'John' ]
+> myArr                             #[ 1, 2, 3, true, 'John' ]
+> myArr.push(5)                     #6
+> myArr                             #[ 1, 2, 3, true, 'John', 5 ]
+> myArr.pop()                       #5
+> myArr                             #[ 1, 2, 3, true, 'John' ]
+> myArr.length                      #5
+> myArr.shift()                     #1
+> myArr                             #[ 2, 3, true, 'John' ]
+> myArr.slice(2)                    #[ true, 'John' ]
+> myArr                             #[ 2, 3, true, 'John' ]
+> myArr.slice(1,3)                  #[ 3, true ]
+> myArr                             #[ 2, 3, true, 'John' ]
+> myArr.slice(1,4)                  #[ 3, true, 'John' ]
+```
+
 
