@@ -1,0 +1,99 @@
+# JAVA Script
+
+### Java Script Content
+
+##### Start JS in command Line
+```
+node
+```
+
+#### variable Write
+
+```
+var number=10;          //assigning 10 to number
+var first_name='Sunny'  //Assigning Sunny to first_name
+var last_name='Prime'
+var name=first_name+last_name   //Merging two names
+var num1=10
+var num2=20
+var num3=num1+num2;           //Adding of numbers
+
+name                          // Output:-'SunnyPrime'
+num3                          // Output:- 30
+
+typeof(name)                 // OUTPUT:- 'string'
+typeof(num3)                 // OUTPUT:- 'number'   
+
+a=true
+typof(a)                    // OP:-'boolean'
+```
+#### Input/Output
+
+```
+console.log("INDIA")      //  OP:- INDIA
+
+```
+
+
+
+#### CONDITION
+
+```
+if(condition)
+{
+  statement 1
+}
+else if
+{
+  statement 2
+}
+else
+{
+  statement 3
+}
+```
+Example
+var ham =0;
+var cheese = 0;
+var report ="blank";
+
+if (ham >= 10 && cheese >= 10) {
+    report = "Strong sales of both ham and cheese!"
+}else if (ham===0 && cheese=== 0) {
+  report = "Nothing Sold!"
+
+}else {
+  report = "We had some sales of items"
+}
+
+console.log(report);
+
+#### LOOP
+
+##### For LOOP
+```
+var word = "ABCDEFGHIJKL"
+
+for (var i = 0; i < word.length; i++) {
+  console.log(word[i]);
+}
+```
+output
+```
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+```
+##### While LOOP
+
+ 
+
