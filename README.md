@@ -7,7 +7,7 @@
 node
 ```
 
-#### variable Write
+### variable Write
 
 ```
 var number=10;          //assigning 10 to number
@@ -28,7 +28,7 @@ a=true
 typof(a)                    // OP:-'boolean'
 ---
 ```
-#### Output
+### Output
 
 ```
 console.log("INDIA")      //  OP:- INDIA
@@ -45,7 +45,7 @@ console.log("You are a cool person");
 
 ---
 
-#### CONDITION
+### CONDITION
 
 ```
 if(condition)
@@ -84,7 +84,7 @@ console.log(report);              # Nothing Sold!
 
 ---
 
-#### LOOP
+### LOOP
 
 ##### For LOOP
 ```
@@ -132,7 +132,7 @@ The number is 8
 The number is 9
 ```
 ---
-#### Array
+### Array
 ```
 > var myArr=[]                      #  undefined
 > myArr                             #   []
@@ -152,7 +152,7 @@ The number is 9
 > myArr.slice(1,4)                  #[ 3, true, 'John' ]
 ```
 ---
-#### Function
+### Function
 
 ```
 > function sayhi(name){
