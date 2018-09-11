@@ -154,3 +154,19 @@ The number is 9
 ---
 #### Function
 
+```
+> function sayhi(name){
+ console.log('Hi ' + name);
+}
+
+> sayhi('prime')      # Hi prime
+```
+#### Function calling Function
+
+```
+function callhi(func,name) {
+func(name)
+}
+> callhi(sayhi,"prime")       # Hiprime
+```
+
